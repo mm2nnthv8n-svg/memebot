@@ -1,7 +1,29 @@
 {
-  "cash": 100,
-  "holdings": {},
-  "trades": [],
-  "history": [],
-  "lastRun": null
+  "cash": 90,
+  "holdings": {
+    "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump": {
+      "symbol": "clarity",
+      "amount": 161160.35455278002,
+      "buyPrice": 0.00006205,
+      "spent": 10,
+      "boughtAt": "2026-09-14T23:25:16.247Z"
+    }
+  },
+  "trades": [
+    {
+      "time": "2026-09-14T23:25:16.247Z",
+      "symbol": "clarity",
+      "action": "BUY",
+      "price": 0.00006205,
+      "usd": 10,
+      "reason": "1h change +44.0%"
+    }
+  ],
+  "history": [
+    {
+      "t": "2026-09-14T23:25:16.247Z",
+      "value": 100
+    }
+  ],
+  "lastRun": "2026-09-14T23:25:16.247Z"
 }
