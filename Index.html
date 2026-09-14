@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paper Trading Bot</title>
+<style>
+  :root {
+    --bg: #0A0B0F;
+    --card: #13141B;
+    --border: #22232D;
+    --border-soft: #1C1D26;
+    --text: #E8E9ED;
+    --text-dim: #8C8E99;
+    --text-dimmer: #6E7080;
+    --up: #B4F42A;
+    --down: #FF3D7F;
+    --blue: #8CA6FF;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    padding: 20px 16px 60px;
+  }
+  .mono { font-family: 'SF Mono', 'JetBrains Mono', Menlo, monospace; }
+  .wrap { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 22px; font-weight: 800; margin: 0 0 4px; letter-spacing: -0.02em; }
+  .sub { font-size: 13px; color: var(--text-dimmer); margin: 0 0 20px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 20px; margin-bottom: 16px;
+  }
+  .row { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 14px; }
+  .label { font-size: 12px; color: var(--text-dimmer); margin-bottom: 4px; }
+  .value-lg { font-size: 34px; font-weight: 700; line-height: 1; }
+  .pnl { font-size: 18px; font-weight: 700; }
+  .foot-row { display: flex; justify-content: space-between; margin-top: 10px; font-size: 12px; color: var(--text-dimmer); }
+  .foot-row span span { color: #B0B2BC; }
+  #status { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-dimmer); }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--text-dimmer); display: inline-block; }
+  .dot.ok { background: var(--up); }
+  .dot.err { background: var(--down); }
+  .section-title { font-size: 13px; font-weight: 700; margin: 0 0 8px; color: #B0B2BC; }
+  .log { background: var(--card); border: 1px solid var(--border); border-radius: 12px; max-height: 340px; overflow-y: auto; }
+  .trade-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 14px; border-bottom: 1px solid var(--border-soft);
+  }
+  .trade-row:last-child { border-bottom: none; }
+  .empty { padding: 24px; text-align: center; font-size: 12px; color: var(--text-dimmer); }
+  .action-buy { color: var(--blue); }
+  .action-profit { color: var(--up); }
+  .action-loss { color: var(--down); }
+  .config-note {
+    font-size: 11px; color: var(--text-dimmer); background: var(--card);
+    border: 1px solid var(--border); border-radius: 10px; padding: 10px 14px; margin-bottom: 20px; line-height: 1.5;
+  }
+  a { color: var(--blue); }
+  canvas { width: 100%; height: 60px; display: block; }
+  .holdings-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 20px; }
+  .holding-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+  .holding-sym { font-weight: 700; font-size: 14px; }
+  .holding-detail { font-size: 11px; color: var(--text-dimmer); margin-top: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="row" style="margin-bottom:4px;">
+    <h1>paper trader</h1>
+    <div id="status"><span class="dot" id="statusDot"></span><span id="statusText">loading…</span></div>
+  </div>
+  <p class="sub">real Solana meme coin prices, simulated money — no wallet, no risk</p>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <div class="label">portfolio value</div>
+        <div class="value-lg mono" id="portfolioValue">$--</div>
+      </div>
+      <div style="text-align:right;">
+        <div class="label">P&amp;L</div>
+        <div class="pnl mono" id="pnl">--</div>
+      </div>
+    </div>
+    <canvas id="chart" width="600" height="60"></canvas>
+    <div class="foot-row">
+      <span>cash: <span class="mono" id="cashValue">--</span></span>
+      <span>in positions: <span class="mono" id="positionsValue">--</span></span>
+    </div>
+  </div>
+
+  <div id="holdingsSection"></div>
+
+  <div class="config-note">
+    checks real Solana trending tokens every 15 minutes · buys on a 6%+ 1h pump · sells at +15% profit or -10% stop-loss · last run: <span id="lastRun">--</span>
+  </div>
+
+  <div class="section-title">trade log</div>
+  <div class="log" id="tradeLog">
+    <div class="empty">loading…</div>
+  </div>
+</div>
+
+<script>
+  // ⚠️ EDIT THIS: point it at your own GitHub repo (username/repo-name)
+  const REPO = "mm2nnthv8n-svg/memebot";
+  const STATE_URL = `https://raw.githubusercontent.com/${REPO}/main/state.json?_=${Date.now()}`;
+  const STARTING_CASH = 100;
+
+  function fmtUsd(v) {
+    const s = v < 0 ? '-$' : '$';
+    return s + Math.abs(v).toFixed(2);
+  }
+  function fmtPrice(p) {
+    return '$' + p.toFixed(p < 0.01 ? 6 : 4);
+  }
+  function timeAgo(iso) {
+    if (!iso) return 'never';
+    const diffMs = Date.now() - new Date(iso).getTime();
+    const mins = Math.floor(diffMs / 60000);
+    if (mins < 1) return 'just now';
+    if (mins < 60) return `${mins}m ago`;
+    const hrs = Math.floor(mins / 60);
+    return `${hrs}h ${mins % 60}m ago`;
+  }
+
+  function drawChart(history, pnlPositive) {
+    const canvas = document.getElementById('chart');
+    const ctx = canvas.getContext('2d');
+    const w = canvas.width, h = canvas.height;
+    ctx.clearRect(0, 0, w, h);
+    if (!history || history.length < 2) return;
+    const values = history.map(p => p.value);
+    const min = Math.min(...values), max = Math.max(...values);
+    const range = max - min || 1;
+    ctx.beginPath();
+    ctx.strokeStyle = pnlPositive ? '#B4F42A' : '#FF3D7F';
+    ctx.lineWidth = 2;
+    values.forEach((v, i) => {
+      const x = (i / (values.length - 1)) * w;
+      const y = h - ((v - min) / range) * (h - 8) - 4;
+      i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+  }
+
+  function render(state) {
+    const holdingsValue = Object.values(state.holdings || {}).reduce((sum, h) => sum + h.amount * h.buyPrice, 0);
+    const value = state.cash + holdingsValue;
+    const pnl = value - STARTING_CASH;
+    const pnlPct = (pnl / STARTING_CASH) * 100;
+
+    document.getElementById('portfolioValue').textContent = fmtUsd(value);
+    const pnlEl = document.getElementById('pnl');
+    pnlEl.textContent = `${pnl >= 0 ? '+' : ''}${fmtUsd(pnl)} (${pnlPct >= 0 ? '+' : ''}${pnlPct.toFixed(1)}%)`;
+    pnlEl.style.color = pnl >= 0 ? 'var(--up)' : 'var(--down)';
+
+    document.getElementById('cashValue').textContent = fmtUsd(state.cash);
+    document.getElementById('positionsValue').textContent = fmtUsd(holdingsValue);
+    document.getElementById('lastRun').textContent = timeAgo(state.lastRun);
+
+    drawChart(state.history, pnl >= 0);
+
+    // holdings
+    const holdingsSection = document.getElementById('holdingsSection');
+    const entries = Object.entries(state.holdings || {});
+    if (entries.length === 0) {
+      holdingsSection.innerHTML = '';
+    } else {
+      holdingsSection.innerHTML =
+        '<div class="section-title">current holdings</div><div class="holdings-grid">' +
+        entries.map(([addr, h]) => `
+          <div class="holding-card">
+            <div class="holding-sym">${h.symbol}</div>
+            <div class="holding-detail mono">bought at ${fmtPrice(h.buyPrice)}</div>
+            <div class="holding-detail mono">${fmtUsd(h.spent)} in</div>
+          </div>
+        `).join('') +
+        '</div>';
+    }
+
+    // trade log
+    const log = document.getElementById('tradeLog');
+    if (!state.trades || state.trades.length === 0) {
+      log.innerHTML = '<div class="empty">no trades yet — the bot checks every 15 minutes for a signal</div>';
+    } else {
+      log.innerHTML = state.trades.map(t => {
+        const cls = t.action === 'BUY' ? 'action-buy' : t.action.includes('profit') ? 'action-profit' : 'action-loss';
+        const pnlLine = t.pnl !== undefined
+          ? `<div style="font-size:10px;color:${t.pnl >= 0 ? 'var(--up)' : 'var(--down)'}">${t.pnl >= 0 ? '+' : ''}${fmtUsd(t.pnl)}</div>`
+          : '';
+        return `
+          <div class="trade-row">
+            <div>
+              <span class="${cls}" style="font-size:11px;font-weight:700;">${t.action}</span>
+              <span style="font-size:12px;margin-left:6px;color:#B0B2BC;">${t.symbol}</span>
+              <div style="font-size:10px;color:var(--text-dimmer);margin-top:2px;">${t.reason || ''}</div>
+            </div>
+            <div class="mono" style="text-align:right;">
+              <div style="font-size:12px;">${fmtUsd(t.usd)}</div>
+              ${pnlLine}
+            </div>
+          </div>`;
+      }).join('');
+    }
+  }
+
+  async function load() {
+    try {
+      const res = await fetch(STATE_URL, { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const state = await res.json();
+      render(state);
+      document.getElementById('statusDot').className = 'dot ok';
+      document.getElementById('statusText').textContent = 'connected';
+    } catch (err) {
+      document.getElementById('statusDot').className = 'dot err';
+      document.getElementById('statusText').textContent = 'can\'t reach state.json — check REPO is set correctly';
+      console.error(err);
+    }
+  }
+
+  load();
+  setInterval(load, 60000); // refresh every minute
+</script>
+</body>
+</html>
