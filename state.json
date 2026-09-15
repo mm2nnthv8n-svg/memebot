@@ -1,5 +1,5 @@
 {
-  "cash": 76.51830164741021,
+  "cash": 94.54471158430397,
   "holdings": {
     "J2sJYBVz4EYupcx1NRX13m8tNNYTpAhs16XZzfkQWaCS": {
       "symbol": "BCATE",
@@ -7,23 +7,27 @@
       "buyPrice": 0.00003087,
       "spent": 9.8280614027507,
       "boughtAt": "2026-09-15T06:24:41.607Z"
-    },
-    "FsEQGePjwwnH3iJzRLekPNMqMdYZLi5L2oCLsKGppump": {
-      "symbol": "Catez",
-      "amount": 908145.189631577,
-      "buyPrice": 0.00000904,
-      "spent": 8.209632514269456,
-      "boughtAt": "2026-09-15T10:32:03.888Z"
-    },
-    "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD": {
-      "symbol": "ANT",
-      "amount": 157590.98269469722,
-      "buyPrice": 0.00005395,
-      "spent": 8.502033516378914,
-      "boughtAt": "2026-09-15T10:53:57.966Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T11:53:06.544Z",
+      "symbol": "ANT",
+      "action": "SELL (profit)",
+      "price": 0.00006945,
+      "usd": 10.94469374814672,
+      "pnl": 2.4426602317678068,
+      "reason": "+28.7% since buy"
+    },
+    {
+      "time": "2026-09-15T11:53:06.544Z",
+      "symbol": "Catez",
+      "action": "SELL (stop loss)",
+      "price": 0.000007798,
+      "usd": 7.081716188747038,
+      "pnl": -1.1279163255224187,
+      "reason": "-13.7% since buy"
+    },
     {
       "time": "2026-09-15T10:53:57.966Z",
       "symbol": "ANT",
@@ -559,7 +563,11 @@
     {
       "t": "2026-09-15T11:30:46.196Z",
       "value": 102.28315861661682
+    },
+    {
+      "t": "2026-09-15T11:53:06.544Z",
+      "value": 103.84746358263165
     }
   ],
-  "lastRun": "2026-09-15T11:30:46.196Z"
+  "lastRun": "2026-09-15T11:53:06.544Z"
 }
