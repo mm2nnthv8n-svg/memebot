@@ -1,13 +1,6 @@
 {
-  "cash": 72.63734931950746,
+  "cash": 87.55757494400383,
   "holdings": {
-    "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump": {
-      "symbol": "clarity",
-      "amount": 161160.35455278002,
-      "buyPrice": 0.00006205,
-      "spent": 10,
-      "boughtAt": "2026-09-14T23:25:16.247Z"
-    },
     "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD": {
       "symbol": "ANT",
       "amount": 183009.48938093087,
@@ -24,6 +17,15 @@
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T00:47:01.637Z",
+      "symbol": "clarity",
+      "action": "SELL (profit)",
+      "price": 0.00009258,
+      "usd": 14.920225624496373,
+      "pnl": 4.920225624496373,
+      "reason": "+49.2% since buy"
+    },
     {
       "time": "2026-09-15T00:20:24.815Z",
       "symbol": "Catez",
@@ -82,7 +84,11 @@
     {
       "t": "2026-09-15T00:20:24.815Z",
       "value": 99.78356151990911
+    },
+    {
+      "t": "2026-09-15T00:47:01.637Z",
+      "value": 104.44370436192479
     }
   ],
-  "lastRun": "2026-09-15T00:20:24.815Z"
+  "lastRun": "2026-09-15T00:47:01.637Z"
 }
