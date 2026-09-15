@@ -1,5 +1,5 @@
 {
-  "cash": 81.1928309885654,
+  "cash": 77.87488759757241,
   "holdings": {
     "J2sJYBVz4EYupcx1NRX13m8tNNYTpAhs16XZzfkQWaCS": {
       "symbol": "BCATE",
@@ -8,15 +8,32 @@
       "spent": 9.8280614027507,
       "boughtAt": "2026-09-15T06:24:41.607Z"
     },
-    "Gyt8ifzVc1DnWKGpanfuvNnNyyxsWAFXJ8y38A79pump": {
-      "symbol": "STRAWDOG",
-      "amount": 39284.402780752345,
-      "buyPrice": 0.000222,
-      "spent": 8.721137417327022,
-      "boughtAt": "2026-09-15T07:15:45.462Z"
+    "2hoRABojpn3SSJ6ReUuCNuKRvsHDuPn7kFHH7J8Fpump": {
+      "symbol": "BIKE MJ",
+      "amount": 34736.11115463331,
+      "buyPrice": 0.0002491,
+      "spent": 8.652765288619158,
+      "boughtAt": "2026-09-15T07:59:08.130Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T07:59:08.130Z",
+      "symbol": "BIKE MJ",
+      "action": "BUY",
+      "price": 0.0002491,
+      "usd": 8.652765288619158,
+      "reason": "1h change +7.3%"
+    },
+    {
+      "time": "2026-09-15T07:59:08.130Z",
+      "symbol": "STRAWDOG",
+      "action": "SELL (stop loss)",
+      "price": 0.0001358,
+      "usd": 5.334821897626168,
+      "pnl": -3.3863155197008536,
+      "reason": "-38.8% since buy"
+    },
     {
       "time": "2026-09-15T07:44:40.200Z",
       "symbol": "BIKE MJ",
@@ -419,7 +436,11 @@
     {
       "t": "2026-09-15T07:44:40.200Z",
       "value": 100.75338971364982
+    },
+    {
+      "t": "2026-09-15T07:59:08.130Z",
+      "value": 95.95138523220456
     }
   ],
-  "lastRun": "2026-09-15T07:44:40.200Z"
+  "lastRun": "2026-09-15T07:59:08.130Z"
 }
