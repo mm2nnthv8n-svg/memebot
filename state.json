@@ -1,5 +1,5 @@
 {
-  "cash": 91.2181390474384,
+  "cash": 82.09632514269455,
   "holdings": {
     "J2sJYBVz4EYupcx1NRX13m8tNNYTpAhs16XZzfkQWaCS": {
       "symbol": "BCATE",
@@ -7,9 +7,24 @@
       "buyPrice": 0.00003087,
       "spent": 9.8280614027507,
       "boughtAt": "2026-09-15T06:24:41.607Z"
+    },
+    "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump": {
+      "symbol": "clarity",
+      "amount": 57154.222460801,
+      "buyPrice": 0.0001596,
+      "spent": 9.12181390474384,
+      "boughtAt": "2026-09-15T10:14:07.315Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T10:14:07.315Z",
+      "symbol": "clarity",
+      "action": "BUY",
+      "price": 0.0001596,
+      "usd": 9.12181390474384,
+      "reason": "1h change +8.0%"
+    },
     {
       "time": "2026-09-15T09:45:56.761Z",
       "symbol": "clarity",
@@ -492,7 +507,11 @@
     {
       "t": "2026-09-15T09:45:56.761Z",
       "value": 100.97934288962617
+    },
+    {
+      "t": "2026-09-15T10:14:07.315Z",
+      "value": 101.25314051859816
     }
   ],
-  "lastRun": "2026-09-15T09:45:56.761Z"
+  "lastRun": "2026-09-15T10:14:07.315Z"
 }
