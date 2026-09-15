@@ -1,5 +1,5 @@
 {
-  "cash": 85.52377927382267,
+  "cash": 69.27426121179636,
   "holdings": {
     "J2sJYBVz4EYupcx1NRX13m8tNNYTpAhs16XZzfkQWaCS": {
       "symbol": "BCATE",
@@ -7,9 +7,39 @@
       "buyPrice": 0.00003087,
       "spent": 9.8280614027507,
       "boughtAt": "2026-09-15T06:24:41.607Z"
+    },
+    "gxPoy3LioMo8FxrXHuqzFwg2R2JafQRe5tAsgPQpump": {
+      "symbol": "LELD",
+      "amount": 43790.9776107643,
+      "buyPrice": 0.0001953,
+      "spent": 8.552377927382267,
+      "boughtAt": "2026-09-15T09:15:53.913Z"
+    },
+    "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump": {
+      "symbol": "clarity",
+      "amount": 51728.092302715326,
+      "buyPrice": 0.0001488,
+      "spent": 7.697140134644041,
+      "boughtAt": "2026-09-15T09:15:53.913Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T09:15:53.913Z",
+      "symbol": "clarity",
+      "action": "BUY",
+      "price": 0.0001488,
+      "usd": 7.697140134644041,
+      "reason": "1h change +23.6%"
+    },
+    {
+      "time": "2026-09-15T09:15:53.913Z",
+      "symbol": "LELD",
+      "action": "BUY",
+      "price": 0.0001953,
+      "usd": 8.552377927382267,
+      "reason": "1h change +9.5%"
+    },
     {
       "time": "2026-09-15T08:22:26.370Z",
       "symbol": "BIKE MJ",
@@ -450,7 +480,11 @@
     {
       "t": "2026-09-15T08:45:30.444Z",
       "value": 95.19902339528667
+    },
+    {
+      "t": "2026-09-15T09:15:53.913Z",
+      "value": 95.09396151440207
     }
   ],
-  "lastRun": "2026-09-15T08:45:30.444Z"
+  "lastRun": "2026-09-15T09:15:53.913Z"
 }
