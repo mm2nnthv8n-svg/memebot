@@ -1,5 +1,5 @@
 {
-  "cash": 100.94645562016208,
+  "cash": 81.76662905233128,
   "holdings": {
     "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD": {
       "symbol": "ANT",
@@ -7,9 +7,39 @@
       "buyPrice": 0.00006902,
       "spent": 9.454471158430398,
       "boughtAt": "2026-09-15T12:17:33.337Z"
+    },
+    "FsEQGePjwwnH3iJzRLekPNMqMdYZLi5L2oCLsKGppump": {
+      "symbol": "Catez",
+      "amount": 1172160.4229001636,
+      "buyPrice": 0.000008612,
+      "spent": 10.09464556201621,
+      "boughtAt": "2026-09-15T13:15:15.852Z"
+    },
+    "gxPoy3LioMo8FxrXHuqzFwg2R2JafQRe5tAsgPQpump": {
+      "symbol": "LELD",
+      "amount": 2754754.7015811363,
+      "buyPrice": 0.000003298,
+      "spent": 9.085181005814588,
+      "boughtAt": "2026-09-15T13:15:15.852Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T13:15:15.852Z",
+      "symbol": "LELD",
+      "action": "BUY",
+      "price": 0.000003298,
+      "usd": 9.085181005814588,
+      "reason": "1h change +6.7%"
+    },
+    {
+      "time": "2026-09-15T13:15:15.852Z",
+      "symbol": "Catez",
+      "action": "BUY",
+      "price": 0.000008612,
+      "usd": 10.09464556201621,
+      "reason": "1h change +10.7%"
+    },
     {
       "time": "2026-09-15T12:46:34.014Z",
       "symbol": "BCATE",
@@ -609,7 +639,11 @@
     {
       "t": "2026-09-15T12:46:34.014Z",
       "value": 110.1324428106046
+    },
+    {
+      "t": "2026-09-15T13:15:15.852Z",
+      "value": 109.85437012947429
     }
   ],
-  "lastRun": "2026-09-15T12:46:34.014Z"
+  "lastRun": "2026-09-15T13:15:15.852Z"
 }
