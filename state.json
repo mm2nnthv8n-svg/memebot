@@ -1,5 +1,5 @@
 {
-  "cash": 79.63779257256476,
+  "cash": 70.64121308034886,
   "holdings": {
     "J2sJYBVz4EYupcx1NRX13m8tNNYTpAhs16XZzfkQWaCS": {
       "symbol": "BCATE",
@@ -8,22 +8,56 @@
       "spent": 9.8280614027507,
       "boughtAt": "2026-09-15T06:24:41.607Z"
     },
-    "AVX2DfkwCeq9aGoDKRsjDMQgmJ77RPTmfntjRGNipump": {
-      "symbol": "flashbike",
-      "amount": 28459.637266652604,
-      "buyPrice": 0.0003108,
-      "spent": 8.84525526247563,
-      "boughtAt": "2026-09-15T06:48:00.608Z"
+    "Gyt8ifzVc1DnWKGpanfuvNnNyyxsWAFXJ8y38A79pump": {
+      "symbol": "STRAWDOG",
+      "amount": 39284.402780752345,
+      "buyPrice": 0.000222,
+      "spent": 8.721137417327022,
+      "boughtAt": "2026-09-15T07:15:45.462Z"
     },
-    "gxPoy3LioMo8FxrXHuqzFwg2R2JafQRe5tAsgPQpump": {
-      "symbol": "LELD",
-      "amount": 32282.537829893703,
-      "buyPrice": 0.0002741,
-      "spent": 8.848643619173863,
-      "boughtAt": "2026-09-15T06:48:00.608Z"
+    "2hoRABojpn3SSJ6ReUuCNuKRvsHDuPn7kFHH7J8Fpump": {
+      "symbol": "BIKE MJ",
+      "amount": 35938.75309338058,
+      "buyPrice": 0.0002184,
+      "spent": 7.849023675594319,
+      "boughtAt": "2026-09-15T07:15:45.462Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T07:15:45.462Z",
+      "symbol": "BIKE MJ",
+      "action": "BUY",
+      "price": 0.0002184,
+      "usd": 7.849023675594319,
+      "reason": "1h change +93.9%"
+    },
+    {
+      "time": "2026-09-15T07:15:45.462Z",
+      "symbol": "STRAWDOG",
+      "action": "BUY",
+      "price": 0.000222,
+      "usd": 8.721137417327022,
+      "reason": "1h change +34.6%"
+    },
+    {
+      "time": "2026-09-15T07:15:45.462Z",
+      "symbol": "LELD",
+      "action": "SELL (stop loss)",
+      "price": 0.0002317,
+      "usd": 7.4798640151863705,
+      "pnl": -1.3687796039874929,
+      "reason": "-15.5% since buy"
+    },
+    {
+      "time": "2026-09-15T07:15:45.462Z",
+      "symbol": "flashbike",
+      "action": "SELL (stop loss)",
+      "price": 0.000003293,
+      "usd": 0.09371758551908703,
+      "pnl": -8.751537676956543,
+      "reason": "-98.9% since buy"
+    },
     {
       "time": "2026-09-15T06:48:00.608Z",
       "symbol": "LELD",
@@ -375,7 +409,11 @@
     {
       "t": "2026-09-15T06:48:00.608Z",
       "value": 107.15975285696496
+    },
+    {
+      "t": "2026-09-15T07:15:45.462Z",
+      "value": 97.0394355760209
     }
   ],
-  "lastRun": "2026-09-15T06:48:00.608Z"
+  "lastRun": "2026-09-15T07:15:45.462Z"
 }
