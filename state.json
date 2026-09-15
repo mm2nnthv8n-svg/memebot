@@ -1,5 +1,5 @@
 {
-  "cash": 100.23665366044372,
+  "cash": 90.21298829439935,
   "holdings": {
     "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump": {
       "symbol": "clarity",
@@ -7,9 +7,24 @@
       "buyPrice": 0.0001362,
       "spent": 11.137405962271526,
       "boughtAt": "2026-09-15T04:58:42.229Z"
+    },
+    "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD": {
+      "symbol": "ANT",
+      "amount": 213133.43325631242,
+      "buyPrice": 0.00004703,
+      "spent": 10.023665366044373,
+      "boughtAt": "2026-09-15T05:43:14.994Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T05:43:14.994Z",
+      "symbol": "ANT",
+      "action": "BUY",
+      "price": 0.00004703,
+      "usd": 10.023665366044373,
+      "reason": "1h change +20.6%"
+    },
     {
       "time": "2026-09-15T04:58:42.229Z",
       "symbol": "clarity",
@@ -278,7 +293,11 @@
     {
       "t": "2026-09-15T05:19:18.288Z",
       "value": 111.48854103495593
+    },
+    {
+      "t": "2026-09-15T05:43:14.994Z",
+      "value": 110.85071602390073
     }
   ],
-  "lastRun": "2026-09-15T05:19:18.288Z"
+  "lastRun": "2026-09-15T05:43:14.994Z"
 }
