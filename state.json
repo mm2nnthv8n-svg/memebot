@@ -1,5 +1,5 @@
 {
-  "cash": 94.54471158430397,
+  "cash": 76.58121638328622,
   "holdings": {
     "J2sJYBVz4EYupcx1NRX13m8tNNYTpAhs16XZzfkQWaCS": {
       "symbol": "BCATE",
@@ -7,9 +7,39 @@
       "buyPrice": 0.00003087,
       "spent": 9.8280614027507,
       "boughtAt": "2026-09-15T06:24:41.607Z"
+    },
+    "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD": {
+      "symbol": "ANT",
+      "amount": 136981.61632034768,
+      "buyPrice": 0.00006902,
+      "spent": 9.454471158430398,
+      "boughtAt": "2026-09-15T12:17:33.337Z"
+    },
+    "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump": {
+      "symbol": "clarity",
+      "amount": 84081.26524295809,
+      "buyPrice": 0.0001012,
+      "spent": 8.509024042587358,
+      "boughtAt": "2026-09-15T12:17:33.337Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T12:17:33.337Z",
+      "symbol": "clarity",
+      "action": "BUY",
+      "price": 0.0001012,
+      "usd": 8.509024042587358,
+      "reason": "1h change +10.2%"
+    },
+    {
+      "time": "2026-09-15T12:17:33.337Z",
+      "symbol": "ANT",
+      "action": "BUY",
+      "price": 0.00006902,
+      "usd": 9.454471158430398,
+      "reason": "1h change +24.1%"
+    },
     {
       "time": "2026-09-15T11:53:06.544Z",
       "symbol": "ANT",
@@ -567,7 +597,11 @@
     {
       "t": "2026-09-15T11:53:06.544Z",
       "value": 103.84746358263165
+    },
+    {
+      "t": "2026-09-15T12:17:33.337Z",
+      "value": 104.01619933071905
     }
   ],
-  "lastRun": "2026-09-15T11:53:06.544Z"
+  "lastRun": "2026-09-15T12:17:33.337Z"
 }
