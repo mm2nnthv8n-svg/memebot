@@ -1,29 +1,50 @@
 {
-  "cash": 78.24479973061985,
+  "cash": 89.3412625494503,
   "holdings": {
-    "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD": {
-      "symbol": "ANT",
-      "amount": 183009.48938093087,
-      "buyPrice": 0.00004426,
-      "spent": 8.1,
-      "boughtAt": "2026-09-14T23:39:31.897Z"
-    },
-    "FsEQGePjwwnH3iJzRLekPNMqMdYZLi5L2oCLsKGppump": {
-      "symbol": "Catez",
-      "amount": 187969.92503573644,
-      "buyPrice": 0.00004638,
-      "spent": 8.718045123157456,
-      "boughtAt": "2026-09-15T01:33:13.235Z"
-    },
-    "3nkVw4JwdDLGM23Wzqpy2ptAPV5YgMnokEBgijDBpump": {
-      "symbol": "bikecate",
-      "amount": 18446.566171728282,
-      "buyPrice": 0.0004713,
-      "spent": 8.693866636735539,
-      "boughtAt": "2026-09-15T01:55:44.839Z"
+    "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump": {
+      "symbol": "clarity",
+      "amount": 110703.76881832189,
+      "buyPrice": 0.00008967,
+      "spent": 9.926806949938923,
+      "boughtAt": "2026-09-15T03:20:09.843Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T03:20:09.843Z",
+      "symbol": "clarity",
+      "action": "BUY",
+      "price": 0.00008967,
+      "usd": 9.926806949938923,
+      "reason": "1h change +11.4%"
+    },
+    {
+      "time": "2026-09-15T03:20:09.843Z",
+      "symbol": "ANT",
+      "action": "SELL (stop loss)",
+      "price": 0.00003916,
+      "usd": 7.166651604157252,
+      "pnl": -0.9333483958427475,
+      "reason": "-11.5% since buy"
+    },
+    {
+      "time": "2026-09-15T03:20:09.843Z",
+      "symbol": "Catez",
+      "action": "SELL (stop loss)",
+      "price": 0.00003409,
+      "usd": 6.407894744468255,
+      "pnl": -2.310150378689201,
+      "reason": "-26.5% since buy"
+    },
+    {
+      "time": "2026-09-15T03:20:09.843Z",
+      "symbol": "bikecate",
+      "action": "SELL (stop loss)",
+      "price": 0.0004038,
+      "usd": 7.44872342014388,
+      "pnl": -1.245143216591659,
+      "reason": "-14.3% since buy"
+    },
     {
       "time": "2026-09-15T01:55:44.839Z",
       "symbol": "bikecate",
@@ -161,7 +182,11 @@
     {
       "t": "2026-09-15T02:58:22.386Z",
       "value": 102.94837054730817
+    },
+    {
+      "t": "2026-09-15T03:20:09.843Z",
+      "value": 99.26806949938923
     }
   ],
-  "lastRun": "2026-09-15T02:58:22.386Z"
+  "lastRun": "2026-09-15T03:20:09.843Z"
 }
