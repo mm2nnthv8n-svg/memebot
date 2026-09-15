@@ -1,5 +1,5 @@
 {
-  "cash": 81.24207629521396,
+  "cash": 73.25321043895885,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -15,15 +15,32 @@
       "spent": 9.44507917775661,
       "boughtAt": "2026-09-15T17:28:04.955Z"
     },
-    "76a7g4P4HJmQk4Mrwe6sb6dte7BEMKCaWuHNo51tSTNK": {
-      "symbol": "FART",
-      "amount": 68541.36192964985,
-      "buyPrice": 0.0001317,
-      "spent": 9.026897366134886,
-      "boughtAt": "2026-09-15T17:55:45.076Z"
+    "C8pvSBY8JBhP6zjAXAmbzNTAsqCsKiVoapCpCF5pump": {
+      "symbol": "DihFish",
+      "amount": 114443.8358313943,
+      "buyPrice": 0.00007112,
+      "spent": 8.139245604328762,
+      "boughtAt": "2026-09-15T18:16:07.414Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T18:16:07.414Z",
+      "symbol": "DihFish",
+      "action": "BUY",
+      "price": 0.00007112,
+      "usd": 8.139245604328762,
+      "reason": "1h change +72.5%"
+    },
+    {
+      "time": "2026-09-15T18:16:07.414Z",
+      "symbol": "FART",
+      "action": "SELL (stop loss)",
+      "price": 0.000002194,
+      "usd": 0.1503797480736518,
+      "pnl": -8.876517618061234,
+      "reason": "-98.3% since buy"
+    },
     {
       "time": "2026-09-15T17:55:45.076Z",
       "symbol": "FART",
@@ -805,7 +822,11 @@
     {
       "t": "2026-09-15T17:55:45.076Z",
       "value": 109.55121686724995
+    },
+    {
+      "t": "2026-09-15T18:16:07.414Z",
+      "value": 99.8392384013748
     }
   ],
-  "lastRun": "2026-09-15T17:55:45.076Z"
+  "lastRun": "2026-09-15T18:16:07.414Z"
 }
