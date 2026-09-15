@@ -1,5 +1,5 @@
 {
-  "cash": 83.49341888224632,
+  "cash": 85.00571259980948,
   "holdings": {
     "gxPoy3LioMo8FxrXHuqzFwg2R2JafQRe5tAsgPQpump": {
       "symbol": "LELD",
@@ -15,15 +15,32 @@
       "spent": 9.001703180330583,
       "boughtAt": "2026-09-15T13:43:25.888Z"
     },
-    "58NKqgGPUgEPNq5ergdiiUBw9rGPcnX37wUTLYe2nKut": {
-      "symbol": "feg",
-      "amount": 117505.33935999764,
-      "buyPrice": 0.00007895,
-      "spent": 9.277046542471814,
-      "boughtAt": "2026-09-15T15:55:50.241Z"
+    "7PboeXUhu35TYV4TFfKzvMGPj9TfgsbSADjWcasE35zu": {
+      "symbol": "SENGI",
+      "amount": 242866.52552729772,
+      "buyPrice": 0.00003889,
+      "spent": 9.44507917775661,
+      "boughtAt": "2026-09-15T17:28:04.955Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T17:28:04.955Z",
+      "symbol": "SENGI",
+      "action": "BUY",
+      "price": 0.00003889,
+      "usd": 9.44507917775661,
+      "reason": "1h change +6.5%"
+    },
+    {
+      "time": "2026-09-15T17:28:04.955Z",
+      "symbol": "feg",
+      "action": "SELL (profit)",
+      "price": 0.00009325,
+      "usd": 10.95737289531978,
+      "pnl": 1.6803263528479668,
+      "reason": "+18.1% since buy"
+    },
     {
       "time": "2026-09-15T15:55:50.241Z",
       "symbol": "feg",
@@ -742,7 +759,11 @@
     {
       "t": "2026-09-15T17:12:35.307Z",
       "value": 110.78191473436692
+    },
+    {
+      "t": "2026-09-15T17:28:04.955Z",
+      "value": 111.65615445920531
     }
   ],
-  "lastRun": "2026-09-15T17:12:35.307Z"
+  "lastRun": "2026-09-15T17:28:04.955Z"
 }
