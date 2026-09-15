@@ -1,5 +1,5 @@
 {
-  "cash": 82.09632514269455,
+  "cash": 85.02033516378913,
   "holdings": {
     "J2sJYBVz4EYupcx1NRX13m8tNNYTpAhs16XZzfkQWaCS": {
       "symbol": "BCATE",
@@ -8,15 +8,32 @@
       "spent": 9.8280614027507,
       "boughtAt": "2026-09-15T06:24:41.607Z"
     },
-    "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump": {
-      "symbol": "clarity",
-      "amount": 57154.222460801,
-      "buyPrice": 0.0001596,
-      "spent": 9.12181390474384,
-      "boughtAt": "2026-09-15T10:14:07.315Z"
+    "FsEQGePjwwnH3iJzRLekPNMqMdYZLi5L2oCLsKGppump": {
+      "symbol": "Catez",
+      "amount": 908145.189631577,
+      "buyPrice": 0.00000904,
+      "spent": 8.209632514269456,
+      "boughtAt": "2026-09-15T10:32:03.888Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T10:32:03.888Z",
+      "symbol": "clarity",
+      "action": "SELL (profit)",
+      "price": 0.0001948,
+      "usd": 11.133642535364034,
+      "pnl": 2.011828630620194,
+      "reason": "+22.1% since buy"
+    },
+    {
+      "time": "2026-09-15T10:32:03.888Z",
+      "symbol": "Catez",
+      "action": "BUY",
+      "price": 0.00000904,
+      "usd": 8.209632514269456,
+      "reason": "1h change +10.9%"
+    },
     {
       "time": "2026-09-15T10:14:07.315Z",
       "symbol": "clarity",
@@ -511,7 +528,11 @@
     {
       "t": "2026-09-15T10:14:07.315Z",
       "value": 101.25314051859816
+    },
+    {
+      "t": "2026-09-15T10:32:03.888Z",
+      "value": 102.55818922326738
     }
   ],
-  "lastRun": "2026-09-15T10:14:07.315Z"
+  "lastRun": "2026-09-15T10:32:03.888Z"
 }
