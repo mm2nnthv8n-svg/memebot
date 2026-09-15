@@ -1,5 +1,5 @@
 {
-  "cash": 92.77046542471813,
+  "cash": 83.49341888224632,
   "holdings": {
     "gxPoy3LioMo8FxrXHuqzFwg2R2JafQRe5tAsgPQpump": {
       "symbol": "LELD",
@@ -14,9 +14,24 @@
       "buyPrice": 0.000002862,
       "spent": 9.001703180330583,
       "boughtAt": "2026-09-15T13:43:25.888Z"
+    },
+    "58NKqgGPUgEPNq5ergdiiUBw9rGPcnX37wUTLYe2nKut": {
+      "symbol": "feg",
+      "amount": 117505.33935999764,
+      "buyPrice": 0.00007895,
+      "spent": 9.277046542471814,
+      "boughtAt": "2026-09-15T15:55:50.241Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T15:55:50.241Z",
+      "symbol": "feg",
+      "action": "BUY",
+      "price": 0.00007895,
+      "usd": 9.277046542471814,
+      "reason": "1h change +27.7%"
+    },
     {
       "time": "2026-09-15T15:42:42.398Z",
       "symbol": "feg",
@@ -707,7 +722,11 @@
     {
       "t": "2026-09-15T15:42:42.398Z",
       "value": 110.0254136909858
+    },
+    {
+      "t": "2026-09-15T15:55:50.241Z",
+      "value": 110.0254136909858
     }
   ],
-  "lastRun": "2026-09-15T15:42:42.398Z"
+  "lastRun": "2026-09-15T15:55:50.241Z"
 }
