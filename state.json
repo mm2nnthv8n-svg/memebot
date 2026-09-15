@@ -1,5 +1,5 @@
 {
-  "cash": 70.64121308034886,
+  "cash": 81.1928309885654,
   "holdings": {
     "J2sJYBVz4EYupcx1NRX13m8tNNYTpAhs16XZzfkQWaCS": {
       "symbol": "BCATE",
@@ -14,16 +14,18 @@
       "buyPrice": 0.000222,
       "spent": 8.721137417327022,
       "boughtAt": "2026-09-15T07:15:45.462Z"
-    },
-    "2hoRABojpn3SSJ6ReUuCNuKRvsHDuPn7kFHH7J8Fpump": {
-      "symbol": "BIKE MJ",
-      "amount": 35938.75309338058,
-      "buyPrice": 0.0002184,
-      "spent": 7.849023675594319,
-      "boughtAt": "2026-09-15T07:15:45.462Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T07:44:40.200Z",
+      "symbol": "BIKE MJ",
+      "action": "SELL (profit)",
+      "price": 0.0002936,
+      "usd": 10.551617908216539,
+      "pnl": 2.7025942326222196,
+      "reason": "+34.4% since buy"
+    },
     {
       "time": "2026-09-15T07:15:45.462Z",
       "symbol": "BIKE MJ",
@@ -413,7 +415,11 @@
     {
       "t": "2026-09-15T07:15:45.462Z",
       "value": 97.0394355760209
+    },
+    {
+      "t": "2026-09-15T07:44:40.200Z",
+      "value": 100.75338971364982
     }
   ],
-  "lastRun": "2026-09-15T07:15:45.462Z"
+  "lastRun": "2026-09-15T07:44:40.200Z"
 }
