@@ -1,5 +1,5 @@
 {
-  "cash": 83.42480967473018,
+  "cash": 81.24207629521396,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -15,15 +15,32 @@
       "spent": 9.44507917775661,
       "boughtAt": "2026-09-15T17:28:04.955Z"
     },
-    "GPrTuSgAXVVJ67bAU4xe3UFD5aDDmVj7bZy73vTQpump": {
-      "symbol": "clarity",
-      "amount": 411060.90009721706,
-      "buyPrice": 0.00002255,
-      "spent": 9.269423297192244,
-      "boughtAt": "2026-09-15T17:43:37.667Z"
+    "76a7g4P4HJmQk4Mrwe6sb6dte7BEMKCaWuHNo51tSTNK": {
+      "symbol": "FART",
+      "amount": 68541.36192964985,
+      "buyPrice": 0.0001317,
+      "spent": 9.026897366134886,
+      "boughtAt": "2026-09-15T17:55:45.076Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T17:55:45.076Z",
+      "symbol": "FART",
+      "action": "BUY",
+      "price": 0.0001317,
+      "usd": 9.026897366134886,
+      "reason": "1h change +217.0%"
+    },
+    {
+      "time": "2026-09-15T17:55:45.076Z",
+      "symbol": "clarity",
+      "action": "SELL (stop loss)",
+      "price": 0.00001665,
+      "usd": 6.844163986618665,
+      "pnl": -2.425259310573579,
+      "reason": "-26.2% since buy"
+    },
     {
       "time": "2026-09-15T17:43:37.667Z",
       "symbol": "clarity",
@@ -784,7 +801,11 @@
     {
       "t": "2026-09-15T17:43:37.667Z",
       "value": 111.59760439800094
+    },
+    {
+      "t": "2026-09-15T17:55:45.076Z",
+      "value": 109.55121686724995
     }
   ],
-  "lastRun": "2026-09-15T17:43:37.667Z"
+  "lastRun": "2026-09-15T17:55:45.076Z"
 }
