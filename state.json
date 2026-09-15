@@ -1,22 +1,54 @@
 {
-  "cash": 88.4525526247563,
+  "cash": 79.63779257256476,
   "holdings": {
-    "5EpyCB2dhxpBtm4B7Ff51FguE14WEzPrFTuXbRh86ssD": {
-      "symbol": "ANT",
-      "amount": 213133.43325631242,
-      "buyPrice": 0.00004703,
-      "spent": 10.023665366044373,
-      "boughtAt": "2026-09-15T05:43:14.994Z"
-    },
     "J2sJYBVz4EYupcx1NRX13m8tNNYTpAhs16XZzfkQWaCS": {
       "symbol": "BCATE",
       "amount": 318369.33601395204,
       "buyPrice": 0.00003087,
       "spent": 9.8280614027507,
       "boughtAt": "2026-09-15T06:24:41.607Z"
+    },
+    "AVX2DfkwCeq9aGoDKRsjDMQgmJ77RPTmfntjRGNipump": {
+      "symbol": "flashbike",
+      "amount": 28459.637266652604,
+      "buyPrice": 0.0003108,
+      "spent": 8.84525526247563,
+      "boughtAt": "2026-09-15T06:48:00.608Z"
+    },
+    "gxPoy3LioMo8FxrXHuqzFwg2R2JafQRe5tAsgPQpump": {
+      "symbol": "LELD",
+      "amount": 32282.537829893703,
+      "buyPrice": 0.0002741,
+      "spent": 8.848643619173863,
+      "boughtAt": "2026-09-15T06:48:00.608Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-15T06:48:00.608Z",
+      "symbol": "LELD",
+      "action": "BUY",
+      "price": 0.0002741,
+      "usd": 8.848643619173863,
+      "reason": "1h change +76.5%"
+    },
+    {
+      "time": "2026-09-15T06:48:00.608Z",
+      "symbol": "ANT",
+      "action": "SELL (stop loss)",
+      "price": 0.00004166,
+      "usd": 8.879138829457975,
+      "pnl": -1.1445265365863975,
+      "reason": "-11.4% since buy"
+    },
+    {
+      "time": "2026-09-15T06:48:00.608Z",
+      "symbol": "flashbike",
+      "action": "BUY",
+      "price": 0.0003108,
+      "usd": 8.84525526247563,
+      "reason": "1h change +11039.0%"
+    },
     {
       "time": "2026-09-15T06:24:41.607Z",
       "symbol": "BCATE",
@@ -339,7 +371,11 @@
     {
       "t": "2026-09-15T06:24:41.607Z",
       "value": 108.83285030802702
+    },
+    {
+      "t": "2026-09-15T06:48:00.608Z",
+      "value": 107.15975285696496
     }
   ],
-  "lastRun": "2026-09-15T06:24:41.607Z"
+  "lastRun": "2026-09-15T06:48:00.608Z"
 }
