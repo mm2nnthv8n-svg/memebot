@@ -1,5 +1,5 @@
 {
-  "cash": 67.53880573105819,
+  "cash": 68.85996162457906,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -15,15 +15,32 @@
       "spent": 8.055402054507736,
       "boughtAt": "2026-09-15T22:29:39.204Z"
     },
-    "9MBetPjhp7uZ4odThXNm44GTVaffoYBcmGpdda9rpump": {
-      "symbol": "TOELY",
-      "amount": 2612012.442706354,
-      "buyPrice": 0.000002873,
-      "spent": 7.504311747895355,
-      "boughtAt": "2026-09-16T07:14:42.626Z"
+    "7PboeXUhu35TYV4TFfKzvMGPj9TfgsbSADjWcasE35zu": {
+      "symbol": "SENGI",
+      "amount": 193993.58131783598,
+      "buyPrice": 0.00003944,
+      "spent": 7.651106847175452,
+      "boughtAt": "2026-09-16T08:14:55.096Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T08:14:55.096Z",
+      "symbol": "SENGI",
+      "action": "BUY",
+      "price": 0.00003944,
+      "usd": 7.651106847175452,
+      "reason": "1h change +6.7%"
+    },
+    {
+      "time": "2026-09-16T08:14:55.096Z",
+      "symbol": "TOELY",
+      "action": "SELL (profit)",
+      "price": 0.000003435,
+      "usd": 8.972262740696326,
+      "pnl": 1.4679509928009713,
+      "reason": "+19.6% since buy"
+    },
     {
       "time": "2026-09-16T07:14:42.626Z",
       "symbol": "TOELY",
@@ -1100,7 +1117,11 @@
     {
       "t": "2026-09-16T07:54:46.140Z",
       "value": 92.17285241378306
+    },
+    {
+      "t": "2026-09-16T08:14:55.096Z",
+      "value": 93.87411905868461
     }
   ],
-  "lastRun": "2026-09-16T07:54:46.140Z"
+  "lastRun": "2026-09-16T08:14:55.096Z"
 }
