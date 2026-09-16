@@ -1,5 +1,5 @@
 {
-  "cash": 76.19562207799538,
+  "cash": 68.57605987019585,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -14,9 +14,24 @@
       "buyPrice": 0.00002317,
       "spent": 8.055402054507736,
       "boughtAt": "2026-09-15T22:29:39.204Z"
+    },
+    "58NKqgGPUgEPNq5ergdiiUBw9rGPcnX37wUTLYe2nKut": {
+      "symbol": "feg",
+      "amount": 81449.08827150763,
+      "buyPrice": 0.00009355,
+      "spent": 7.619562207799539,
+      "boughtAt": "2026-09-16T04:14:01.393Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T04:14:01.393Z",
+      "symbol": "feg",
+      "action": "BUY",
+      "price": 0.00009355,
+      "usd": 7.619562207799539,
+      "reason": "1h change +8.7%"
+    },
     {
       "time": "2026-09-16T03:32:41.468Z",
       "symbol": "ALLCAT",
@@ -1024,7 +1039,11 @@
     {
       "t": "2026-09-16T03:54:44.970Z",
       "value": 93.6907854306015
+    },
+    {
+      "t": "2026-09-16T04:14:01.393Z",
+      "value": 93.8020382859076
     }
   ],
-  "lastRun": "2026-09-16T03:54:44.970Z"
+  "lastRun": "2026-09-16T04:14:01.393Z"
 }
