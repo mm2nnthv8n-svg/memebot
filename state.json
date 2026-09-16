@@ -1,5 +1,5 @@
 {
-  "cash": 68.85996162457906,
+  "cash": 77.74486764893595,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -14,16 +14,18 @@
       "buyPrice": 0.00002317,
       "spent": 8.055402054507736,
       "boughtAt": "2026-09-15T22:29:39.204Z"
-    },
-    "7PboeXUhu35TYV4TFfKzvMGPj9TfgsbSADjWcasE35zu": {
-      "symbol": "SENGI",
-      "amount": 193993.58131783598,
-      "buyPrice": 0.00003944,
-      "spent": 7.651106847175452,
-      "boughtAt": "2026-09-16T08:14:55.096Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T10:14:43.087Z",
+      "symbol": "SENGI",
+      "action": "SELL (profit)",
+      "price": 0.0000458,
+      "usd": 8.884906024356889,
+      "pnl": 1.233799177181437,
+      "reason": "+16.1% since buy"
+    },
     {
       "time": "2026-09-16T08:14:55.096Z",
       "symbol": "SENGI",
@@ -1141,7 +1143,11 @@
     {
       "t": "2026-09-16T09:54:42.187Z",
       "value": 95.31865440575805
+    },
+    {
+      "t": "2026-09-16T10:14:43.087Z",
+      "value": 95.31651733956501
     }
   ],
-  "lastRun": "2026-09-16T09:54:42.187Z"
+  "lastRun": "2026-09-16T10:14:43.087Z"
 }
