@@ -1,5 +1,5 @@
 {
-  "cash": 75.45210037739697,
+  "cash": 76.49057073003567,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -8,22 +8,39 @@
       "spent": 9.001703180330583,
       "boughtAt": "2026-09-15T13:43:25.888Z"
     },
-    "DAHn4rnrnbPzfgNusjty1tp1MX6f76HLHtNH9muCdtKX": {
-      "symbol": "DOGE2",
-      "amount": 288488.28360483993,
-      "buyPrice": 0.00002855,
-      "spent": 8.23634049691818,
-      "boughtAt": "2026-09-16T12:18:19.857Z"
-    },
     "bobyR5BDzjtHeTuBZw62yjX324F2dGaCihyRMa3VZoh": {
       "symbol": "BOBY",
       "amount": 254047.47601817164,
       "buyPrice": 0.000033,
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
+    },
+    "DM8CTfQPoMtXRoeEPyq8NahPVfhQbvxvWDon5bz7pump": {
+      "symbol": "ELONIUS",
+      "amount": 59851.77678406547,
+      "buyPrice": 0.000142,
+      "spent": 8.498952303337298,
+      "boughtAt": "2026-09-16T16:55:51.167Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T16:55:51.167Z",
+      "symbol": "ELONIUS",
+      "action": "BUY",
+      "price": 0.000142,
+      "usd": 8.498952303337298,
+      "reason": "1h change +20.9%"
+    },
+    {
+      "time": "2026-09-16T16:55:51.167Z",
+      "symbol": "DOGE2",
+      "action": "SELL (profit)",
+      "price": 0.00003306,
+      "usd": 9.537422655976007,
+      "pnl": 1.3010821590578274,
+      "reason": "+15.8% since buy"
+    },
     {
       "time": "2026-09-16T13:43:24.738Z",
       "symbol": "BOBY",
@@ -1302,7 +1319,11 @@
     {
       "t": "2026-09-16T16:42:10.437Z",
       "value": 102.30555573423807
+    },
+    {
+      "t": "2026-09-16T16:55:51.167Z",
+      "value": 102.37479292230321
     }
   ],
-  "lastRun": "2026-09-16T16:42:10.437Z"
+  "lastRun": "2026-09-16T16:55:51.167Z"
 }
