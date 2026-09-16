@@ -1,5 +1,5 @@
 {
-  "cash": 72.49861849056961,
+  "cash": 76.17775029024105,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -8,22 +8,39 @@
       "spent": 9.001703180330583,
       "boughtAt": "2026-09-15T13:43:25.888Z"
     },
-    "7PboeXUhu35TYV4TFfKzvMGPj9TfgsbSADjWcasE35zu": {
-      "symbol": "SENGI",
-      "amount": 242866.52552729772,
-      "buyPrice": 0.00003889,
-      "spent": 9.44507917775661,
-      "boughtAt": "2026-09-15T17:28:04.955Z"
-    },
     "DAHn4rnrnbPzfgNusjty1tp1MX6f76HLHtNH9muCdtKX": {
       "symbol": "DOGE2",
       "amount": 347665.1728315812,
       "buyPrice": 0.00002317,
       "spent": 8.055402054507736,
       "boughtAt": "2026-09-15T22:29:39.204Z"
+    },
+    "H7Y3TzFyyfPBnn5Dpwa5m79NdgDQnFS8TcAtQe2Tpump": {
+      "symbol": "ALLCAT",
+      "amount": 8514.429611400716,
+      "buyPrice": 0.0009941,
+      "spent": 8.46419447669345,
+      "boughtAt": "2026-09-16T01:44:00.885Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T01:44:00.885Z",
+      "symbol": "ALLCAT",
+      "action": "BUY",
+      "price": 0.0009941,
+      "usd": 8.46419447669345,
+      "reason": "1h change +35.3%"
+    },
+    {
+      "time": "2026-09-16T01:44:00.885Z",
+      "symbol": "SENGI",
+      "action": "SELL (profit)",
+      "price": 0.00005,
+      "usd": 12.143326276364887,
+      "pnl": 2.6982470986082774,
+      "reason": "+28.6% since buy"
+    },
     {
       "time": "2026-09-15T22:29:39.204Z",
       "symbol": "DOGE2",
@@ -973,7 +990,11 @@
     {
       "t": "2026-09-16T01:28:34.699Z",
       "value": 99.88736554043014
+    },
+    {
+      "t": "2026-09-16T01:44:00.885Z",
+      "value": 101.71643326041439
     }
   ],
-  "lastRun": "2026-09-16T01:28:34.699Z"
+  "lastRun": "2026-09-16T01:44:00.885Z"
 }
