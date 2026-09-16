@@ -1,5 +1,5 @@
 {
-  "cash": 75.86325756093424,
+  "cash": 75.08051241610255,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -15,15 +15,32 @@
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
     },
-    "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump": {
-      "symbol": "PAIDDOGE",
-      "amount": 10148.38771984566,
-      "buyPrice": 0.0008306,
-      "spent": 8.429250840103805,
-      "boughtAt": "2026-09-16T22:13:16.876Z"
+    "Ah2gs1iCXYJC8F3CMYrdFdCC4N14WuUY5Hsuyif7pump": {
+      "symbol": "RIDE",
+      "amount": 738908.6941846525,
+      "buyPrice": 0.00001129,
+      "spent": 8.342279157344727,
+      "boughtAt": "2026-09-16T22:55:48.456Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T22:55:48.456Z",
+      "symbol": "RIDE",
+      "action": "BUY",
+      "price": 0.00001129,
+      "usd": 8.342279157344727,
+      "reason": "1h change +22.4%"
+    },
+    {
+      "time": "2026-09-16T22:55:48.456Z",
+      "symbol": "PAIDDOGE",
+      "action": "SELL (stop loss)",
+      "price": 0.0007449,
+      "usd": 7.559534012513031,
+      "pnl": -0.8697168275907741,
+      "reason": "-10.3% since buy"
+    },
     {
       "time": "2026-09-16T22:13:16.876Z",
       "symbol": "PAIDDOGE",
@@ -856,22 +873,6 @@
       "usd": 7.8081659105638375,
       "pnl": -1.1918340894361625,
       "reason": "-13.2% since buy"
-    },
-    {
-      "time": "2026-09-14T23:39:31.897Z",
-      "symbol": "ANT",
-      "action": "BUY",
-      "price": 0.00004426,
-      "usd": 8.1,
-      "reason": "1h change +27.6%"
-    },
-    {
-      "time": "2026-09-14T23:39:31.897Z",
-      "symbol": "Catez",
-      "action": "BUY",
-      "price": 0.00004629,
-      "usd": 9,
-      "reason": "1h change +29.0%"
     }
   ],
   "history": [
@@ -1442,7 +1443,11 @@
     {
       "t": "2026-09-16T22:44:16.289Z",
       "value": 101.16021051625617
+    },
+    {
+      "t": "2026-09-16T22:55:48.456Z",
+      "value": 100.80806146237752
     }
   ],
-  "lastRun": "2026-09-16T22:44:16.289Z"
+  "lastRun": "2026-09-16T22:55:48.456Z"
 }
