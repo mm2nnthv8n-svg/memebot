@@ -1,5 +1,5 @@
 {
-  "cash": 76.37823122151202,
+  "cash": 75.45210037739697,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -15,15 +15,32 @@
       "spent": 8.23634049691818,
       "boughtAt": "2026-09-16T12:18:19.857Z"
     },
-    "BxftAowY2dVa2h9KMqDTPk4oMxzU9k6uVbZuoorXpump": {
-      "symbol": "Holdoween",
-      "amount": 30626.019977349544,
-      "buyPrice": 0.0002771,
-      "spent": 8.48647013572356,
-      "boughtAt": "2026-09-16T13:15:18.551Z"
+    "bobyR5BDzjtHeTuBZw62yjX324F2dGaCihyRMa3VZoh": {
+      "symbol": "BOBY",
+      "amount": 254047.47601817164,
+      "buyPrice": 0.000033,
+      "spent": 8.383566708599664,
+      "boughtAt": "2026-09-16T13:43:24.738Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T13:43:24.738Z",
+      "symbol": "BOBY",
+      "action": "BUY",
+      "price": 0.000033,
+      "usd": 8.383566708599664,
+      "reason": "1h change +421.0%"
+    },
+    {
+      "time": "2026-09-16T13:43:24.738Z",
+      "symbol": "Holdoween",
+      "action": "SELL (stop loss)",
+      "price": 0.0002435,
+      "usd": 7.457435864484614,
+      "pnl": -1.0290342712389453,
+      "reason": "-12.1% since buy"
+    },
     {
       "time": "2026-09-16T13:15:18.551Z",
       "symbol": "Holdoween",
@@ -1245,7 +1262,11 @@
     {
       "t": "2026-09-16T13:15:18.551Z",
       "value": 102.3739240210729
+    },
+    {
+      "t": "2026-09-16T13:43:24.738Z",
+      "value": 101.05928634906516
     }
   ],
-  "lastRun": "2026-09-16T13:15:18.551Z"
+  "lastRun": "2026-09-16T13:43:24.738Z"
 }
