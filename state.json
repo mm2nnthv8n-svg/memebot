@@ -1,5 +1,5 @@
 {
-  "cash": 83.85233927447572,
+  "cash": 75.46710534702815,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -14,9 +14,24 @@
       "buyPrice": 0.000033,
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
+    },
+    "2kq7mEiemD5LmbzkMrxiJ98i5N3MBngeD7Hpsg8owZLy": {
+      "symbol": "blindcat",
+      "amount": 102835.83428314414,
+      "buyPrice": 0.00008154,
+      "spent": 8.385233927447572,
+      "boughtAt": "2026-09-16T17:29:31.627Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T17:29:31.627Z",
+      "symbol": "blindcat",
+      "action": "BUY",
+      "price": 0.00008154,
+      "usd": 8.385233927447572,
+      "reason": "1h change +20.2%"
+    },
     {
       "time": "2026-09-16T17:13:26.000Z",
       "symbol": "ELONIUS",
@@ -1329,7 +1344,11 @@
     {
       "t": "2026-09-16T17:13:26.000Z",
       "value": 101.23760916340598
+    },
+    {
+      "t": "2026-09-16T17:29:31.627Z",
+      "value": 101.23760916340598
     }
   ],
-  "lastRun": "2026-09-16T17:13:26.000Z"
+  "lastRun": "2026-09-16T17:29:31.627Z"
 }
