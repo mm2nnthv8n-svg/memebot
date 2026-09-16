@@ -1,5 +1,5 @@
 {
-  "cash": 75.46710534702815,
+  "cash": 76.66010386054691,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -15,15 +15,32 @@
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
     },
-    "2kq7mEiemD5LmbzkMrxiJ98i5N3MBngeD7Hpsg8owZLy": {
-      "symbol": "blindcat",
-      "amount": 102835.83428314414,
-      "buyPrice": 0.00008154,
-      "spent": 8.385233927447572,
-      "boughtAt": "2026-09-16T17:29:31.627Z"
+    "GurGmtPpqf3ghLjPBsbYJHdWZ6k7bDaB2sha9Ycspump": {
+      "symbol": "SQUDAI",
+      "amount": 646266.2608375226,
+      "buyPrice": 0.00001318,
+      "spent": 8.517789317838547,
+      "boughtAt": "2026-09-16T18:45:00.565Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T18:45:00.565Z",
+      "symbol": "SQUDAI",
+      "action": "BUY",
+      "price": 0.00001318,
+      "usd": 8.517789317838547,
+      "reason": "1h change +35.3%"
+    },
+    {
+      "time": "2026-09-16T18:45:00.565Z",
+      "symbol": "blindcat",
+      "action": "SELL (profit)",
+      "price": 0.00009443,
+      "usd": 9.710787831357301,
+      "pnl": 1.3255539039097286,
+      "reason": "+15.8% since buy"
+    },
     {
       "time": "2026-09-16T17:29:31.627Z",
       "symbol": "blindcat",
@@ -1360,7 +1377,11 @@
     {
       "t": "2026-09-16T18:19:13.909Z",
       "value": 101.34764350608893
+    },
+    {
+      "t": "2026-09-16T18:45:00.565Z",
+      "value": 102.56316306731571
     }
   ],
-  "lastRun": "2026-09-16T18:19:13.909Z"
+  "lastRun": "2026-09-16T18:45:00.565Z"
 }
