@@ -1,5 +1,5 @@
 {
-  "cash": 84.29250840103805,
+  "cash": 75.86325756093424,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -14,9 +14,24 @@
       "buyPrice": 0.000033,
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
+    },
+    "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump": {
+      "symbol": "PAIDDOGE",
+      "amount": 10148.38771984566,
+      "buyPrice": 0.0008306,
+      "spent": 8.429250840103805,
+      "boughtAt": "2026-09-16T22:13:16.876Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T22:13:16.876Z",
+      "symbol": "PAIDDOGE",
+      "action": "BUY",
+      "price": 0.0008306,
+      "usd": 8.429250840103805,
+      "reason": "1h change +13.4%"
+    },
     {
       "time": "2026-09-16T21:53:14.671Z",
       "symbol": "SQUDAI",
@@ -857,14 +872,6 @@
       "price": 0.00004629,
       "usd": 9,
       "reason": "1h change +29.0%"
-    },
-    {
-      "time": "2026-09-14T23:25:16.247Z",
-      "symbol": "clarity",
-      "action": "BUY",
-      "price": 0.00006205,
-      "usd": 10,
-      "reason": "1h change +44.0%"
     }
   ],
   "history": [
@@ -1423,7 +1430,11 @@
     {
       "t": "2026-09-16T21:53:14.671Z",
       "value": 101.6777782899683
+    },
+    {
+      "t": "2026-09-16T22:13:16.876Z",
+      "value": 101.6777782899683
     }
   ],
-  "lastRun": "2026-09-16T21:53:14.671Z"
+  "lastRun": "2026-09-16T22:13:16.876Z"
 }
