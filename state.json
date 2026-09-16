@@ -1,5 +1,5 @@
 {
-  "cash": 91.51489441020199,
+  "cash": 74.12706447226361,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -7,9 +7,39 @@
       "buyPrice": 0.000002862,
       "spent": 9.001703180330583,
       "boughtAt": "2026-09-15T13:43:25.888Z"
+    },
+    "58NKqgGPUgEPNq5ergdiiUBw9rGPcnX37wUTLYe2nKut": {
+      "symbol": "feg",
+      "amount": 83044.36879328675,
+      "buyPrice": 0.0001102,
+      "spent": 9.1514894410202,
+      "boughtAt": "2026-09-16T12:18:19.857Z"
+    },
+    "DAHn4rnrnbPzfgNusjty1tp1MX6f76HLHtNH9muCdtKX": {
+      "symbol": "DOGE2",
+      "amount": 288488.28360483993,
+      "buyPrice": 0.00002855,
+      "spent": 8.23634049691818,
+      "boughtAt": "2026-09-16T12:18:19.857Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-16T12:18:19.857Z",
+      "symbol": "DOGE2",
+      "action": "BUY",
+      "price": 0.00002855,
+      "usd": 8.23634049691818,
+      "reason": "1h change +11.0%"
+    },
+    {
+      "time": "2026-09-16T12:18:19.857Z",
+      "symbol": "feg",
+      "action": "BUY",
+      "price": 0.0001102,
+      "usd": 9.1514894410202,
+      "reason": "1h change +35.2%"
+    },
     {
       "time": "2026-09-16T11:54:37.663Z",
       "symbol": "DOGE2",
@@ -1186,7 +1216,11 @@
     {
       "t": "2026-09-16T11:54:37.663Z",
       "value": 100.51659759053257
+    },
+    {
+      "t": "2026-09-16T12:18:19.857Z",
+      "value": 100.51659759053257
     }
   ],
-  "lastRun": "2026-09-16T11:54:37.663Z"
+  "lastRun": "2026-09-16T12:18:19.857Z"
 }
