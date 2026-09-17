@@ -1,5 +1,5 @@
 {
-  "cash": 717.1464388337541,
+  "cash": 692.2607274861834,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -15,15 +15,32 @@
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
     },
-    "DLEdharFALn6K65DxtKq29AzFERPvg45dY5rue9Wpump": {
-      "symbol": "FAPMAX",
-      "amount": 25344445.81685589,
-      "buyPrice": 0.000003144,
-      "spent": 79.68293764819491,
-      "boughtAt": "2026-09-17T11:54:08.420Z"
+    "58NKqgGPUgEPNq5ergdiiUBw9rGPcnX37wUTLYe2nKut": {
+      "symbol": "feg",
+      "amount": 22858204.638804145,
+      "buyPrice": 0.000003365,
+      "spent": 76.91785860957594,
+      "boughtAt": "2026-09-17T12:46:06.259Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-17T12:46:06.259Z",
+      "symbol": "feg",
+      "action": "BUY",
+      "price": 0.000003365,
+      "usd": 76.91785860957594,
+      "reason": "1h change +7.0%"
+    },
+    {
+      "time": "2026-09-17T12:46:06.259Z",
+      "symbol": "FAPMAX",
+      "action": "SELL (stop loss)",
+      "price": 0.000002053,
+      "usd": 52.03214726200514,
+      "pnl": -27.65079038618977,
+      "reason": "-34.7% since buy"
+    },
     {
       "time": "2026-09-17T11:54:08.420Z",
       "symbol": "FAPMAX",
@@ -855,23 +872,6 @@
       "price": 0.0004733,
       "usd": 10.541260781971518,
       "reason": "1h change +298.0%"
-    },
-    {
-      "time": "2026-09-15T04:20:16.917Z",
-      "symbol": "LELD",
-      "action": "SELL (profit)",
-      "price": 0.0005247,
-      "usd": 23.7115326641307,
-      "pnl": 13.624980175786938,
-      "reason": "+135.1% since buy"
-    },
-    {
-      "time": "2026-09-15T03:58:17.970Z",
-      "symbol": "clarity",
-      "action": "BUY",
-      "price": 0.0001079,
-      "usd": 9.077897239509387,
-      "reason": "1h change +35.2%"
     }
   ],
   "history": [
@@ -1602,7 +1602,11 @@
     {
       "t": "2026-09-17T12:17:26.795Z",
       "value": 822.6543468278924
+    },
+    {
+      "t": "2026-09-17T12:46:06.259Z",
+      "value": 786.5638559846897
     }
   ],
-  "lastRun": "2026-09-17T12:17:26.795Z"
+  "lastRun": "2026-09-17T12:46:06.259Z"
 }
