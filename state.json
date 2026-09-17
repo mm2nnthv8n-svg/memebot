@@ -1,5 +1,5 @@
 {
-  "cash": 677.9376698251018,
+  "cash": 669.244802127579,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -15,15 +15,32 @@
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
     },
-    "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump": {
-      "symbol": "PAIDDOGE",
-      "amount": 58894.767598393,
-      "buyPrice": 0.001279,
-      "spent": 75.32640775834464,
-      "boughtAt": "2026-09-17T05:30:33.337Z"
+    "DLEdharFALn6K65DxtKq29AzFERPvg45dY5rue9Wpump": {
+      "symbol": "FAPMAX",
+      "amount": 341887.5106654299,
+      "buyPrice": 0.0002175,
+      "spent": 74.360533569731,
+      "boughtAt": "2026-09-17T06:18:17.487Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-17T06:18:17.487Z",
+      "symbol": "FAPMAX",
+      "action": "BUY",
+      "price": 0.0002175,
+      "usd": 74.360533569731,
+      "reason": "1h change +40.6%"
+    },
+    {
+      "time": "2026-09-17T06:18:17.487Z",
+      "symbol": "PAIDDOGE",
+      "action": "SELL (stop loss)",
+      "price": 0.001115,
+      "usd": 65.6676658722082,
+      "pnl": -9.65874188613644,
+      "reason": "-12.8% since buy"
+    },
     {
       "time": "2026-09-17T05:30:33.337Z",
       "symbol": "PAIDDOGE",
@@ -856,22 +873,6 @@
       "usd": 8.476260258938282,
       "pnl": -1.2104565445700004,
       "reason": "-12.5% since buy"
-    },
-    {
-      "time": "2026-09-15T01:33:13.235Z",
-      "symbol": "Catez",
-      "action": "BUY",
-      "price": 0.00004638,
-      "usd": 8.718045123157456,
-      "reason": "1h change +9.0%"
-    },
-    {
-      "time": "2026-09-15T01:13:58.035Z",
-      "symbol": "clarity",
-      "action": "BUY",
-      "price": 0.00009483,
-      "usd": 9.686716803508283,
-      "reason": "1h change +270.0%"
     }
   ],
   "history": [
@@ -1530,7 +1531,11 @@
     {
       "t": "2026-09-17T05:53:56.795Z",
       "value": 763.346396290176
+    },
+    {
+      "t": "2026-09-17T06:18:17.487Z",
+      "value": 760.9906055862402
     }
   ],
-  "lastRun": "2026-09-17T05:53:56.795Z"
+  "lastRun": "2026-09-17T06:18:17.487Z"
 }
