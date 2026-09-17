@@ -1,5 +1,5 @@
 {
-  "cash": 714.1160428688954,
+  "cash": 781.3515299460254,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -14,16 +14,18 @@
       "buyPrice": 0.000033,
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
-    },
-    "4775QEyTS7ECpvhbeEg1a5XUjpK6CtEJwRpw6vvwpump": {
-      "symbol": "ニーナ",
-      "amount": 261007.32560997643,
-      "buyPrice": 0.000304,
-      "spent": 79.34622698543284,
-      "boughtAt": "2026-09-17T07:42:53.452Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-17T09:54:28.266Z",
+      "symbol": "ニーナ",
+      "action": "SELL (stop loss)",
+      "price": 0.0002576,
+      "usd": 67.23548707712992,
+      "pnl": -12.110739908302918,
+      "reason": "-15.3% since buy"
+    },
     {
       "time": "2026-09-17T07:42:53.452Z",
       "symbol": "ニーナ",
@@ -863,15 +865,6 @@
       "price": 0.00008967,
       "usd": 9.926806949938923,
       "reason": "1h change +11.4%"
-    },
-    {
-      "time": "2026-09-15T03:20:09.843Z",
-      "symbol": "ANT",
-      "action": "SELL (stop loss)",
-      "price": 0.00003916,
-      "usd": 7.166651604157252,
-      "pnl": -0.9333483958427475,
-      "reason": "-11.5% since buy"
     }
   ],
   "history": [
@@ -1570,7 +1563,11 @@
     {
       "t": "2026-09-17T09:32:49.387Z",
       "value": 807.0629335219138
+    },
+    {
+      "t": "2026-09-17T09:54:28.266Z",
+      "value": 798.7367998349556
     }
   ],
-  "lastRun": "2026-09-17T09:32:49.387Z"
+  "lastRun": "2026-09-17T09:54:28.266Z"
 }
