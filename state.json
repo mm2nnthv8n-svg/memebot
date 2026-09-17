@@ -1,5 +1,5 @@
 {
-  "cash": 669.244802127579,
+  "cash": 764.9391163628328,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -14,16 +14,18 @@
       "buyPrice": 0.000033,
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
-    },
-    "DLEdharFALn6K65DxtKq29AzFERPvg45dY5rue9Wpump": {
-      "symbol": "FAPMAX",
-      "amount": 341887.5106654299,
-      "buyPrice": 0.0002175,
-      "spent": 74.360533569731,
-      "boughtAt": "2026-09-17T06:18:17.487Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-17T06:47:04.429Z",
+      "symbol": "FAPMAX",
+      "action": "SELL (profit)",
+      "price": 0.0002799,
+      "usd": 95.69431423525381,
+      "pnl": 21.33378066552281,
+      "reason": "+28.7% since buy"
+    },
     {
       "time": "2026-09-17T06:18:17.487Z",
       "symbol": "FAPMAX",
@@ -864,15 +866,6 @@
       "price": 0.0004713,
       "usd": 8.693866636735539,
       "reason": "1h change +24.4%"
-    },
-    {
-      "time": "2026-09-15T01:33:13.235Z",
-      "symbol": "clarity",
-      "action": "SELL (stop loss)",
-      "price": 0.00008298,
-      "usd": 8.476260258938282,
-      "pnl": -1.2104565445700004,
-      "reason": "-12.5% since buy"
     }
   ],
   "history": [
@@ -1535,7 +1528,11 @@
     {
       "t": "2026-09-17T06:18:17.487Z",
       "value": 760.9906055862402
+    },
+    {
+      "t": "2026-09-17T06:47:04.429Z",
+      "value": 782.324386251763
     }
   ],
-  "lastRun": "2026-09-17T06:18:17.487Z"
+  "lastRun": "2026-09-17T06:47:04.429Z"
 }
