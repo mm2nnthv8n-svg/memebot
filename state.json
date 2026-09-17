@@ -1,5 +1,5 @@
 {
-  "cash": 781.3515299460254,
+  "cash": 703.2163769514228,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -14,9 +14,24 @@
       "buyPrice": 0.000033,
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
+    },
+    "3wrwK9CctFXYedMVBGYD6sWSTfXgbh2DGQAL3z2epump": {
+      "symbol": "fomocoin",
+      "amount": 466200.1968651703,
+      "buyPrice": 0.0001676,
+      "spent": 78.13515299460255,
+      "boughtAt": "2026-09-17T10:14:10.134Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-17T10:14:10.134Z",
+      "symbol": "fomocoin",
+      "action": "BUY",
+      "price": 0.0001676,
+      "usd": 78.13515299460255,
+      "reason": "1h change +18.9%"
+    },
     {
       "time": "2026-09-17T09:54:28.266Z",
       "symbol": "ニーナ",
@@ -857,14 +872,6 @@
       "usd": 11.524262333987307,
       "pnl": 1.5974553840483843,
       "reason": "+16.1% since buy"
-    },
-    {
-      "time": "2026-09-15T03:20:09.843Z",
-      "symbol": "clarity",
-      "action": "BUY",
-      "price": 0.00008967,
-      "usd": 9.926806949938923,
-      "reason": "1h change +11.4%"
     }
   ],
   "history": [
@@ -1567,7 +1574,11 @@
     {
       "t": "2026-09-17T09:54:28.266Z",
       "value": 798.7367998349556
+    },
+    {
+      "t": "2026-09-17T10:14:10.134Z",
+      "value": 798.7367998349556
     }
   ],
-  "lastRun": "2026-09-17T09:54:28.266Z"
+  "lastRun": "2026-09-17T10:14:10.134Z"
 }
