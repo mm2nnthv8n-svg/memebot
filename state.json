@@ -1,5 +1,5 @@
 {
-  "cash": 76.85611000822827,
+  "cash": 677.9376698251018,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -15,15 +15,32 @@
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
     },
-    "2eMoMqs194VxPHSWtCCzkBGqwCUbD4ZcqhecoGuh4tTp": {
-      "symbol": "casinu",
-      "amount": 2208318.5359948357,
-      "buyPrice": 0.000003867,
-      "spent": 8.53956777869203,
-      "boughtAt": "2026-09-17T02:13:50.780Z"
+    "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump": {
+      "symbol": "PAIDDOGE",
+      "amount": 58894.767598393,
+      "buyPrice": 0.001279,
+      "spent": 75.32640775834464,
+      "boughtAt": "2026-09-17T05:30:33.337Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-17T05:30:33.337Z",
+      "symbol": "PAIDDOGE",
+      "action": "BUY",
+      "price": 0.001279,
+      "usd": 75.32640775834464,
+      "reason": "1h change +6.5%"
+    },
+    {
+      "time": "2026-09-17T05:30:33.337Z",
+      "symbol": "casinu",
+      "action": "SELL (profit)",
+      "price": 0.0003063,
+      "usd": 676.4079675752182,
+      "pnl": 667.8683997965262,
+      "reason": "+7820.9% since buy"
+    },
     {
       "time": "2026-09-17T02:13:50.780Z",
       "symbol": "casinu",
@@ -855,24 +872,6 @@
       "price": 0.00009483,
       "usd": 9.686716803508283,
       "reason": "1h change +270.0%"
-    },
-    {
-      "time": "2026-09-15T01:13:58.035Z",
-      "symbol": "Catez",
-      "action": "SELL (profit)",
-      "price": 0.00004712,
-      "usd": 9.309593091078995,
-      "pnl": 1.2387765000226096,
-      "reason": "+15.3% since buy"
-    },
-    {
-      "time": "2026-09-15T00:47:01.637Z",
-      "symbol": "clarity",
-      "action": "SELL (profit)",
-      "price": 0.00009258,
-      "usd": 14.920225624496373,
-      "pnl": 4.920225624496373,
-      "reason": "+49.2% since buy"
     }
   ],
   "history": [
@@ -1523,7 +1522,11 @@
     {
       "t": "2026-09-17T05:13:30.115Z",
       "value": 102.01245282532435
+    },
+    {
+      "t": "2026-09-17T05:30:33.337Z",
+      "value": 770.6493474723767
     }
   ],
-  "lastRun": "2026-09-17T05:13:30.115Z"
+  "lastRun": "2026-09-17T05:30:33.337Z"
 }
