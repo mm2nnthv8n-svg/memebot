@@ -1,5 +1,5 @@
 {
-  "cash": 75.08051241610255,
+  "cash": 85.3956777869203,
   "holdings": {
     "5KGs4UpLsbEfHCXEDGWNcYb3WsLUvcBJSGzoTTvkpump": {
       "symbol": "SAILOR",
@@ -14,16 +14,18 @@
       "buyPrice": 0.000033,
       "spent": 8.383566708599664,
       "boughtAt": "2026-09-16T13:43:24.738Z"
-    },
-    "Ah2gs1iCXYJC8F3CMYrdFdCC4N14WuUY5Hsuyif7pump": {
-      "symbol": "RIDE",
-      "amount": 738908.6941846525,
-      "buyPrice": 0.00001129,
-      "spent": 8.342279157344727,
-      "boughtAt": "2026-09-16T22:55:48.456Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-17T01:54:54.091Z",
+      "symbol": "RIDE",
+      "action": "SELL (profit)",
+      "price": 0.00001396,
+      "usd": 10.31516537081775,
+      "pnl": 1.9728862134730232,
+      "reason": "+23.6% since buy"
+    },
     {
       "time": "2026-09-16T22:55:48.456Z",
       "symbol": "RIDE",
@@ -864,15 +866,6 @@
       "price": 0.00004085,
       "usd": 8.070816591056385,
       "reason": "1h change +13.5%"
-    },
-    {
-      "time": "2026-09-14T23:52:51.956Z",
-      "symbol": "Catez",
-      "action": "SELL (stop loss)",
-      "price": 0.00004016,
-      "usd": 7.8081659105638375,
-      "pnl": -1.1918340894361625,
-      "reason": "-13.2% since buy"
     }
   ],
   "history": [
@@ -1479,7 +1472,11 @@
     {
       "t": "2026-09-17T01:30:21.213Z",
       "value": 101.074068592284
+    },
+    {
+      "t": "2026-09-17T01:54:54.091Z",
+      "value": 102.78094767585054
     }
   ],
-  "lastRun": "2026-09-17T01:30:21.213Z"
+  "lastRun": "2026-09-17T01:54:54.091Z"
 }
