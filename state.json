@@ -1,13 +1,6 @@
 {
-  "cash": 70.9826112565445,
+  "cash": 76.67105110616856,
   "holdings": {
-    "HzaCANKGkhNcQGb1VWL8f4tHJYrCmaXrPWk9eHR7GYYX": {
-      "symbol": "SATOSHINU",
-      "amount": 10573.308270676693,
-      "buyPrice": 0.0008512,
-      "spent": 9,
-      "boughtAt": "2026-09-22T06:44:39.695Z"
-    },
     "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump": {
       "symbol": "KITTY ",
       "amount": 28060.471790951447,
@@ -24,6 +17,15 @@
     }
   },
   "trades": [
+    {
+      "time": "2026-09-22T22:57:53.283Z",
+      "symbol": "SATOSHINU",
+      "action": "SELL (stop loss)",
+      "price": 0.000538,
+      "usd": 5.68843984962406,
+      "pnl": -3.31156015037594,
+      "reason": "-36.8% since buy"
+    },
     {
       "time": "2026-09-22T16:58:40.453Z",
       "symbol": "CAT",
@@ -82,7 +84,11 @@
     {
       "t": "2026-09-22T20:06:41.978Z",
       "value": 95.86628855351731
+    },
+    {
+      "t": "2026-09-22T22:57:53.283Z",
+      "value": 93.32129325276543
     }
   ],
-  "lastRun": "2026-09-22T20:06:41.978Z"
+  "lastRun": "2026-09-22T22:57:53.283Z"
 }
