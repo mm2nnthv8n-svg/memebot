@@ -1,5 +1,5 @@
 {
-  "cash": 76.67105110616856,
+  "cash": 69.0039459955517,
   "holdings": {
     "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump": {
       "symbol": "KITTY ",
@@ -14,9 +14,24 @@
       "buyPrice": 0.0003558,
       "spent": 7.886956806282723,
       "boughtAt": "2026-09-22T16:58:40.453Z"
+    },
+    "DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS": {
+      "symbol": "STONKCAT",
+      "amount": 16368.71287492924,
+      "buyPrice": 0.0004684,
+      "spent": 7.667105110616856,
+      "boughtAt": "2026-09-23T01:25:12.945Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-09-23T01:25:12.945Z",
+      "symbol": "STONKCAT",
+      "action": "BUY",
+      "price": 0.0004684,
+      "usd": 7.667105110616856,
+      "reason": "1h change +6.5%"
+    },
     {
       "time": "2026-09-22T22:57:53.283Z",
       "symbol": "SATOSHINU",
@@ -88,7 +103,11 @@
     {
       "t": "2026-09-22T22:57:53.283Z",
       "value": 93.32129325276543
+    },
+    {
+      "t": "2026-09-23T01:25:12.945Z",
+      "value": 93.32129325276541
     }
   ],
-  "lastRun": "2026-09-22T22:57:53.283Z"
+  "lastRun": "2026-09-23T01:25:12.945Z"
 }
