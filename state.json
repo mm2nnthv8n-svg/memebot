@@ -1,5 +1,5 @@
 {
-  "cash": 69.0039459955517,
+  "cash": 71.21677703455458,
   "holdings": {
     "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump": {
       "symbol": "KITTY ",
@@ -8,22 +8,39 @@
       "spent": 8.763285340314138,
       "boughtAt": "2026-09-22T12:05:12.240Z"
     },
-    "8erE7RkkoiGYJtCyQdfwMpnNA8cAkY14Xe6RYjjHAdKP": {
-      "symbol": "CAT",
-      "amount": 22166.826324572015,
-      "buyPrice": 0.0003558,
-      "spent": 7.886956806282723,
-      "boughtAt": "2026-09-22T16:58:40.453Z"
-    },
     "DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS": {
       "symbol": "STONKCAT",
       "amount": 16368.71287492924,
       "buyPrice": 0.0004684,
       "spent": 7.667105110616856,
       "boughtAt": "2026-09-23T01:25:12.945Z"
+    },
+    "FAopSovS2WFJK5qEAmcuwAVH98CvmBwT6Lpq4EK2pump": {
+      "symbol": "A1",
+      "amount": 6594.146021718017,
+      "buyPrice": 0.0012,
+      "spent": 7.91297522606162,
+      "boughtAt": "2026-10-07T00:58:49.329Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-10-07T00:58:49.329Z",
+      "symbol": "A1",
+      "action": "BUY",
+      "price": 0.0012,
+      "usd": 7.91297522606162,
+      "reason": "1h change +72.1%"
+    },
+    {
+      "time": "2026-10-07T00:58:49.329Z",
+      "symbol": "CAT",
+      "action": "SELL (profit)",
+      "price": 0.0004568,
+      "usd": 10.125806265064497,
+      "pnl": 2.2388494587817744,
+      "reason": "+28.4% since buy"
+    },
     {
       "time": "2026-09-23T01:25:12.945Z",
       "symbol": "STONKCAT",
@@ -391,7 +408,11 @@
     {
       "t": "2026-10-06T21:28:20.684Z",
       "value": 93.32129325276541
+    },
+    {
+      "t": "2026-10-07T00:58:49.329Z",
+      "value": 95.5601427115472
     }
   ],
-  "lastRun": "2026-10-06T21:28:20.684Z"
+  "lastRun": "2026-10-07T00:58:49.329Z"
 }
