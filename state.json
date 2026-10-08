@@ -1,5 +1,5 @@
 {
-  "cash": 69.18887930849564,
+  "cash": 70.50904495273204,
   "holdings": {
     "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump": {
       "symbol": "KITTY ",
@@ -15,15 +15,32 @@
       "spent": 7.667105110616856,
       "boughtAt": "2026-09-23T01:25:12.945Z"
     },
-    "HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": {
-      "symbol": "SI276",
-      "amount": 16136.971571157675,
-      "buyPrice": 0.0004764,
-      "spent": 7.687653256499516,
-      "boughtAt": "2026-10-08T00:13:12.242Z"
+    "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump": {
+      "symbol": "GOMO",
+      "amount": 8845.36336014603,
+      "buyPrice": 0.0008857,
+      "spent": 7.834338328081339,
+      "boughtAt": "2026-10-08T13:41:22.827Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-10-08T13:41:22.827Z",
+      "symbol": "GOMO",
+      "action": "BUY",
+      "price": 0.0008857,
+      "usd": 7.834338328081339,
+      "reason": "1h change +8.6%"
+    },
+    {
+      "time": "2026-10-08T13:41:22.827Z",
+      "symbol": "SI276",
+      "action": "SELL (profit)",
+      "price": 0.0005673,
+      "usd": 9.154503972317748,
+      "pnl": 1.4668507158182322,
+      "reason": "+19.1% since buy"
+    },
     {
       "time": "2026-10-08T00:13:12.242Z",
       "symbol": "SI276",
@@ -449,7 +466,11 @@
     {
       "t": "2026-10-08T06:14:35.864Z",
       "value": 93.10198347697245
+    },
+    {
+      "t": "2026-10-08T13:41:22.827Z",
+      "value": 94.77377373174437
     }
   ],
-  "lastRun": "2026-10-08T06:14:35.864Z"
+  "lastRun": "2026-10-08T13:41:22.827Z"
 }
