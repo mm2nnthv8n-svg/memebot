@@ -1,5 +1,5 @@
 {
-  "cash": 70.50904495273204,
+  "cash": 76.5575044183999,
   "holdings": {
     "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump": {
       "symbol": "KITTY ",
@@ -14,16 +14,18 @@
       "buyPrice": 0.0004684,
       "spent": 7.667105110616856,
       "boughtAt": "2026-09-23T01:25:12.945Z"
-    },
-    "9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump": {
-      "symbol": "GOMO",
-      "amount": 8845.36336014603,
-      "buyPrice": 0.0008857,
-      "spent": 7.834338328081339,
-      "boughtAt": "2026-10-08T13:41:22.827Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-10-08T19:29:54.861Z",
+      "symbol": "GOMO",
+      "action": "SELL (stop loss)",
+      "price": 0.0006838,
+      "usd": 6.048459465667856,
+      "pnl": -1.7858788624134831,
+      "reason": "-22.8% since buy"
+    },
     {
       "time": "2026-10-08T13:41:22.827Z",
       "symbol": "GOMO",
@@ -470,7 +472,11 @@
     {
       "t": "2026-10-08T13:41:22.827Z",
       "value": 94.77377373174437
+    },
+    {
+      "t": "2026-10-08T19:29:54.861Z",
+      "value": 92.98789486933089
     }
   ],
-  "lastRun": "2026-10-08T13:41:22.827Z"
+  "lastRun": "2026-10-08T19:29:54.861Z"
 }
