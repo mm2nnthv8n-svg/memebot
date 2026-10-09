@@ -1,5 +1,5 @@
 {
-  "cash": 78.08045400897251,
+  "cash": 70.27240860807525,
   "holdings": {
     "7PDAotcRRWUNUubyweQbUFaJ1hZb9iEbcpxPxN3dpump": {
       "symbol": "KITTY ",
@@ -14,9 +14,24 @@
       "buyPrice": 0.0004684,
       "spent": 7.667105110616856,
       "boughtAt": "2026-09-23T01:25:12.945Z"
+    },
+    "CmCHvr99aXrLDQB7jAtFtsBwg3DnXqq4spcTEMt7pump": {
+      "symbol": "OWLNIGHT",
+      "amount": 17834.73138624315,
+      "buyPrice": 0.0004378,
+      "spent": 7.808045400897251,
+      "boughtAt": "2026-10-09T12:02:24.091Z"
     }
   },
   "trades": [
+    {
+      "time": "2026-10-09T12:02:24.091Z",
+      "symbol": "OWLNIGHT",
+      "action": "BUY",
+      "price": 0.0004378,
+      "usd": 7.808045400897251,
+      "reason": "1h change +6.9%"
+    },
     {
       "time": "2026-10-09T05:16:02.671Z",
       "symbol": "SI276",
@@ -501,7 +516,11 @@
     {
       "t": "2026-10-09T05:16:02.671Z",
       "value": 94.5108444599035
+    },
+    {
+      "t": "2026-10-09T12:02:24.091Z",
+      "value": 94.5108444599035
     }
   ],
-  "lastRun": "2026-10-09T05:16:02.671Z"
+  "lastRun": "2026-10-09T12:02:24.091Z"
 }
