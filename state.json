@@ -1058,5 +1058,6 @@
       "value": 94.5108444599035
     }
   ],
-  "lastRun": "2026-11-03T17:37:33.411Z"
+  "lastRun": "2026-11-03T22:33:15.178Z",
+  "lastError": "token-boosts request failed: 429"
 }
